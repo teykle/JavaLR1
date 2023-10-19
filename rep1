@@ -1,0 +1,7 @@
+public class HelloWorldDemo {
+    public static void main(String[] argv) {
+        System.out.println("Hello World");
+        System.out.println("Task done by Kostyria Danil PZ 20-1-9");
+
+    }
+}
