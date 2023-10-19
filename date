@@ -1,0 +1,17 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class HelloWorldDemo {
+    public static void main(String[] argv) {
+        System.out.println("Hello World");
+        System.out.println("Task done by Kostyria Danil PZ 20-1-9");
+
+        // Отримуємо поточну дату та час
+        Date currentDate = new Date();
+
+        // Встановлюємо формат для виведення дати
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        // Виводимо поточну дату
+        System.out.println("Поточна дата: " + dateFormat.format(currentDate));
+    }
